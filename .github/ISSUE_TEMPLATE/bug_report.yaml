@@ -1,5 +1,5 @@
 name: Bug Report
-description: Template for reporting Bugs or Issues found with HomeCord
+description: Template for reporting Bugs or Issues found with HomeCord's Webhook App
 title: '[Bug]: '
 labels:
   - bug
