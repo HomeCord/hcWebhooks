@@ -1,0 +1,39 @@
+{
+  "name": "homecord-webhooks",
+  "version": "1.0.0",
+  "description": "Handler of Webhook-based API Events from Discord for HomeCord.",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "wrangler deploy"
+  },
+  "keywords": [
+    "discord",
+    "discord-app",
+    "discord-bot"
+  ],
+  "author": "TwilightZebby",
+  "license": "SEE LICENSE IN https://github.com/TwilightZebby/license/blob/main/license.md",
+  "dependencies": {
+    "@discordjs/builders": "^1.10.0",
+    "@discordjs/collection": "^2.1.1",
+    "discord-api-types": "^0.37.117",
+    "discord-interactions": "^4.1.0",
+    "itty-router": "^5.0.18",
+    "undici": "^6.21.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.103.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HomeCord/hcWebhooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HomeCord/hcWebhooks/issues"
+  },
+  "homepage": "https://github.com/HomeCord/hcWebhooks#readme"
+}
